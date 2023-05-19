@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>App Previsão do Tempo</title>
+</head>
+<body>
+    <div class="container">
+        <input class="input-cidade" type="text" placeholder="Digite o nome da cidade">
+        <button class="botao-busca" onclick="cliqueiNoBotao()">
+            <img class="img-busca" src="https://www.citypng.com/public/uploads/preview/white-search-icon-button-png-img-116400840301syqkherpj.png" alt="busca">
+        </button>
+
+        <div class="container2">
+            <h2 class="cidade"></h2>
+
+            <p class="temp"></p>
+        </div>
+
+        <div class="container3">
+            <img class="img-previsao" src="https://openweathermap.org/img/wn/04n.png" alt="">
+            <p class="texto-previsao"></p>
+        </div>  
+
+        <p class="umidade"></p>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
